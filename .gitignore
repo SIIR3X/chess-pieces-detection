@@ -1,0 +1,58 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Log, temp and OS-specific files
+*.log
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+Thumbs.db
+
+# YOLOv8 / Ultralytics
+runs/
+models/
+*.pt
+*.onnx
+*.engine
+*.cache
+*.ckpt
+
+# Generated datasets
+data/dataset/
+data/processed/
+labels.cache
+
+# VS Code configuration
+.vscode/
+
+# PyInstaller
+*.spec
+
+# IDE settings
+.idea/
+*.iml
+
+# Custom config files (exclude if not generic)
+config/*.yaml
+!config/train_config.yaml  # keep this specific file under version control
+
+# Prediction outputs
+predictions/
