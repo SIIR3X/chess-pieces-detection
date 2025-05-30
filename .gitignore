@@ -50,9 +50,5 @@ labels.cache
 .idea/
 *.iml
 
-# Custom config files (exclude if not generic)
-config/*.yaml
-!config/train_config.yaml  # keep this specific file under version control
-
 # Prediction outputs
 predictions/
