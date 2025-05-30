@@ -1,0 +1,8 @@
+model: yolov8s.pt
+data: data/dataset/data.yaml
+epochs: 30
+batch: 64
+imgsz: 640
+device: 0
+name: chess-yolov8s
+export_format: onnx
